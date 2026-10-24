@@ -53,7 +53,7 @@ se voce tem duvida sobre algumas coisas vista como porque usei '~/'
 
  - `-C`
    - E apenas um comentario pra voce identificar pra que serve cada chave tipo, voce tem mais de 2 chaves
-    pra uma pro github e outra pro gitlab, pra saber qual e qual voce pode edentificar ela usando
+    um pro github e outra pro gitlab, pra saber qual e qual voce pode edentificar ela usando
     -C "github" e -C "gitlab" como e um comentario pode colocar qualquer texto dentro
 
 
