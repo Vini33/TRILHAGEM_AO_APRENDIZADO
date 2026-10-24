@@ -17,3 +17,24 @@ basta voce criar uma nova branch
 <img src="../imagens/branch/pe_de_manga_com_galho.png" width="500">
 
 <img src="../imagens/branch/pe_de_manga_segundo_galho_manga_colhida.png" width="500">
+
+apos conclui oque pensa voce pode decidir se implementar esse novo galho na main incesta ele na arvore bem dizer
+se nao voce pode corta ele e jogar fora, remover a branch nao mexer na arvore principal agora adicionar uma nova branch
+vai ser adicionado um novo galho na arvore principal
+
+## codigo
+
+ - Voce gostou e quer implementar essa nova branch na main(arvore principal)
+   - `git switch main` | voce sair da branch e vai pra main(arvore principal)
+   - `git merge galho-da-manga` | aqui voce uni as duas usando o `merge`
+
+ - voce nao gostou da branch e quer jogar fora
+   - `git switch main` | voce sair da branch e vai pra main(arvore principal)
+   - `git branch -D galho-da-manga` | aqui voce deleta ela 
+
+ - criando uma nova branch
+  - `git switch -c outro-galho` | assim voce criar uma nova branch(galho) e ja entra logo nele
+    - `switch` | trocar de branch
+    - `-c` | de create (criar), ou seja, cria a branch nova
+    - `outro-galho` | o nome que você escolheu para ela
+    <img src="../imagens/branch/branches.png">
