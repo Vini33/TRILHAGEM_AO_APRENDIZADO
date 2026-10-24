@@ -45,6 +45,6 @@ vai ser adicionado um novo galho na arvore principal
  - mudar de branch 
    - `git switch galho-branch` | entra na branch escolhida(galhos)
    - `git switch main`  | vai direto na main(arvore principal)
-   
 
-    <img src="../imagens/branch/branches.png">
+
+![branch teste](../imagens/branch/branches.png)
