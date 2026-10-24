@@ -37,4 +37,14 @@ vai ser adicionado um novo galho na arvore principal
     - `switch` | trocar de branch
     - `-c` | de create (criar), ou seja, cria a branch nova
     - `outro-galho` | o nome que você escolheu para ela
+
+ - vendo as branch que voce tem
+   - `git branch` | mostra as lista de branch que voce tem
+   - `*` | mostra em qual delas voce ta
+
+ - mudar de branch 
+   - `git switch galho-branch` | entra na branch escolhida(galhos)
+   - `git switch main`  | vai direto na main(arvore principal)
+   
+
     <img src="../imagens/branch/branches.png">
