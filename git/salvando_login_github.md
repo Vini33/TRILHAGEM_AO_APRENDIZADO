@@ -42,19 +42,18 @@ ele deve retorna um Hi com seu nome na plataforma, isso que dizer que esta tudo 
 ## duvidas
 
 se voce tem duvida sobre algumas coisas vista como porque usei '~/'
- - ~
+ - `~`
    - nos terminal o ~ representa a sua pasta pessoal sem ela eu teria que escrever
      home/seu_usuario/.ssh/id_ed25519.pub, entao o ~ e usado apenas pra simplificar
      evitar que eu precise escrever todo o caminho da pasta
 
- - ed25519
+ - `ed25519`
    - é o algoritimo de criptografia e o mais recomendado hoje em dia entrega uma segurança robusta com muito mais
     eficiência (chaves menores e processamento mais rápido)
 
- - -C
+ - `-C`
    - E apenas um comentario pra voce identificar pra que serve cada chave tipo, voce tem mais de 2 chaves
     pra uma pro github e outra pro gitlab, pra saber qual e qual voce pode edentificar ela usando
     -C "github" e -C "gitlab" como e um comentario pode colocar qualquer texto dentro
 
-`ed25519` | e a tecnologia que criptografa mais moderna e recomendada
 
