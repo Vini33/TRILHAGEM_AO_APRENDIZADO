@@ -66,7 +66,7 @@ Mas tome cuidado ao usar o merge, se nao voce pode juntar de forma errada, segui
 da nova que crie(commit), entao pra fazer essa juncao voce precisa esta usando a branch 'back', porque se voce faz
 ao contrario voce vai trazer oque esta no 'back' pro 'front', pense assim "estando no back, junte o front aqui", ou seja
 > [!IMPORTANT]
->o `merge` so vai juntar o galho na branch em que voce esta usando no momento e isso que ele faz.
+>o `merge` so vai juntar o galho na branch em que voce esta usando no momento é isso que ele faz.
 
 
 ## Ligando sua branch ao github
