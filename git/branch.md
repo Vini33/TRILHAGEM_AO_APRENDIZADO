@@ -85,6 +85,9 @@ HEAD  e a sua branch ja esta ligada no github.
 ## Juntando a branch pelo GitHub
 
 Também dá para juntar o galho à main sem usar o terminal, com um Pull Request:
+pessoal nessa partir a intencao era tirar uns print pra exemplificar, mas acabou
+que nem eu mesmo conseguir mas localizar isso no site fiquei perdido, mas assim que eu
+acerta ou lembra volto pra atualizar o site com as imagem.
 
 - `git push -u origin nome-da-branch` | envia a branch ao GitHub
 - No site: **Compare & pull request → Create pull request → Merge pull request**
