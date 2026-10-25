@@ -57,12 +57,17 @@ voce pode fazer isso.
 <img src="../imagens/branch/galho_nascendo_de_outro_galho.png">
 
 
-mas e bom recapitular alguns entendimentos, digamos que voce fez o commit 3 antes de criar esse novo galho
-agora voce criou o novo galho, e por algo motivo deciciu fazer mais um commit 4 ja depois do galho criado
-como voce fez isso, esse novo galho so vai possuir os commit 3 pra tras esse commit 4 nao esta presente nesse
-novo galho, ou seja se voce criou uma branch(A) e apos cria essa branch(A), voce adicionou uma funcao na branch(B) a branch(A) 
-nao vai receber essa funcao, pra que voce possa fazer a branch(A) ter essa nova funcao, voce precisar unir elas
-usando o merge como visto a cima no codigo
+mas e bom recapitular alguns entendimentos, digamos que voce esta dentro da branch 'front' ai voce decide
+cria uma nova branch 'back', criou essa nova branch, mas ai voce voltou na branch 'front' pra atualizar um codigo
+e logo em seguida fez um commit, se voce volta pra branch 'back' vai ver que ela nao tem esse novo commit feito
+porque? lembra do que foi falado, sao galhos diferentes e endependentes, caso voce precise que o back saiba dessa 
+nova funcao que voce implementou(commit), voce vai precisar juntar as duas usando o `merge`.
+Mas tome cuidado ao usar o merge, se nao voce pode juntar de forma errada, seguindo o raciocinio, eu quero que o back saiba
+da nova que crie(commit), entao pra fazer essa juncao voce precisa esta usando a branch 'back', porque se voce faz
+ao contrario voce vai trazer oque esta no 'back' pro 'front', pense assim "estando no back, junte o front aqui", ou seja
+> [!IMPORTANT]
+>o `merge` so vai juntar o galho na branch em que voce esta usando no momento e isso que ele faz.
+
 
 ## Ligando sua branch ao github
 
