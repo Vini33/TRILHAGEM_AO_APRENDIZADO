@@ -20,7 +20,7 @@ basta voce criar uma nova branch
 
 apos conclui oque pensa voce pode decidir se implementar esse novo galho na main incesta ele na arvore bem dizer
 se nao voce pode corta ele e jogar fora, remover a branch nao mexer na arvore principal agora adicionar uma nova branch
-vai ser adicionado um novo galho na arvore principal
+vai mudar o codigo porque voce vai precisar unir as duas o galho com a arvore principal
 
 ## codigo
 
@@ -48,3 +48,18 @@ vai ser adicionado um novo galho na arvore principal
 
 
 ![branch teste](../imagens/branch/branches.png)
+
+## branch apartir de outra branch
+
+voce talvez se pergunto posso criar uma branch apartir de outra, ou seja um galho apartir do outro galho
+voce pode fazer isso.
+
+<img src="../imagens/branch/galho_nascendo_de_outro_galho.png">
+
+
+mas e bom recapitular alguns intendimentos, digamos que voce fez o commit 3 antes de criar esse novo galho
+agora voce criou o novo galho, e por algo motivo deciciu fazer mais um commit 4 ja depois do galho criado
+como voce fez isso, esse novo galho so vai possuir os commit 3 pra tras esse commit 4 nao esta presente nesse
+novo galho, ou seja se voce criou uma branch(A) e apos cria essa branch(A), voce adicionou uma funcao na branch(B) a branch(A) 
+nao vai receber essa funcao, pra que voce possa fazer a branch(A) ter essa nova funcao, voce precisar unir elas
+usando o merge como visto a cima no codigo
