@@ -1,2 +1,0 @@
-# oque e uma main?
-
