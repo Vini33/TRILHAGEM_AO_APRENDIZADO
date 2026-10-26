@@ -34,5 +34,5 @@ a `main` de lugar, voce voltar nessa foto apagando todas as outras a frente dela
 
 >[!IMPORTANT]
 > so pra cargo de conciencia, voce pode criar uma branch(galho) sem entra nela
-> `git branch galho ` | criar uma branch(galho), mas voce continuar na branch atual
-> `git switch galho`  | aqui sim voce muda de branch, ou seja o `HEAD` vai mudar
+> - `git branch galho ` | criar uma branch(galho), mas voce continuar na branch atual
+> - `git switch galho`  | aqui sim voce muda de branch, ou seja o `HEAD` vai mudar
