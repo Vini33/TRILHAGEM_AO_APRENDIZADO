@@ -1,0 +1,3 @@
+# Dizima Periodica
+
+
